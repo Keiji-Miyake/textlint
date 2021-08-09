@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  node:
+    image: textlint/node:1.0
+    build: ./
+    container_name: textlint
+    volumes: 
+      - ../src:/home/node/app
+    stdin_open: true
+    tty: true
+    command: /bin/bash

@@ -1,0 +1,12 @@
+{
+  "name": "textlint",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "node",
+  "workspaceFolder": "/home/node/app",
+  "extensions": [
+    "taichi.vscode-textlint"
+  ],
+  "settings": {
+    "editor.tabSize": 2,
+  },
+}
